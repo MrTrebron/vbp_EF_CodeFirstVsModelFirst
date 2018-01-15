@@ -5,8 +5,6 @@ Imports CodeFirst_Model
 Module Module1
     Private _loggingOn As Boolean = False
     Sub Main()
-
-
         Console.Write("EF Logging einschalten? J|N: ")
         Dim selectionKey = Console.ReadKey
         Select Case selectionKey.Key
